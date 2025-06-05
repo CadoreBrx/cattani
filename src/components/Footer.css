@@ -1,0 +1,123 @@
+.footer {
+    background-color: var(--dark-gray);
+    color: white;
+    padding: 4rem 0 2rem;
+  }
+  
+  .footer-container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 2rem;
+  }
+  
+  .footer-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 3rem;
+  }
+  
+  .footer-section {
+    flex: 1;
+    margin-right: 2rem;
+    margin-bottom: 2rem;
+    min-width: 250px;
+  }
+  
+  .footer-section:last-child {
+    margin-right: 0;
+  }
+  
+  .footer-section h3 {
+    color: white;
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+    position: relative;
+  }
+  
+  .footer-section h3:after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -8px;
+    width: 40px;
+    height: 2px;
+    background-color: var(--secondary);
+  }
+  
+  .footer-section p {
+    line-height: 1.7;
+    color: #cbd5e1;
+  }
+  
+  .contact-list, .hours-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .contact-list li, .hours-list li {
+    margin-bottom: 1rem;
+    display: flex;
+    align-items: center;
+  }
+  
+  .contact-list li svg {
+    margin-right: 10px;
+    color: var(--secondary);
+  }
+  
+  .hours-list li strong {
+    margin-right: 8px;
+    color: white;
+  }
+  
+  .social-icons {
+    display: flex;
+    gap: 1rem;
+  }
+  
+  .social-icons a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.1);
+    color: white;
+    transition: all 0.3s ease;
+  }
+  
+  .social-icons a:hover {
+    background-color: var(--secondary);
+    transform: translateY(-3px);
+  }
+  
+  .footer-bottom {
+    padding-top: 2rem;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    text-align: center;
+  }
+  
+  .footer-bottom p {
+    color: #94a3b8;
+    font-size: 0.9rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .footer-bottom a {
+    color: var(--secondary);
+    text-decoration: none;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .footer-content {
+      flex-direction: column;
+    }
+  
+    .footer-section {
+      margin-right: 0;
+    }
+  }
+  
