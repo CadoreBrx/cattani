@@ -5,7 +5,6 @@ import {
   MapPin,
   Facebook,
   Instagram,
-  Linkedin,
 } from "lucide-react";
 import "./Footer.css";
 
